@@ -11,7 +11,7 @@ int main() {
 //declare variables
 //get user input by first function for the amt of games being done
 //assign random numbers to the
-int n_games, firstToss, secondToss, start, total;
+int n_games, firstToss, secondToss, start, total, bid;
 int counter = 0, money = 1000;
 intro();
 cin>>start;
@@ -25,14 +25,28 @@ while(n_games<5){
 srand(start);
 
 while (counter<n_games) {
+    cout<<"enter amt of money to wager"<<endl;
+    cin>>bid;
+    while(bid>money) {
+        cout << "enter valid amt" << endl;
+        cin >> bid;
+    }
+
     roll(firstToss, secondToss, total);
     cout << "player rolled " << firstToss << " + " << secondToss << " = " << total << endl;
     if (total == 7 || total == 11) {
         cout << "Player wins!" << endl;
+        money+=bid;
+        cout<< money << " dollars left"<<endl;
         counter++;
     } else if (total == 2 || total == 3 || total == 12) {
         cout << "Player loses!" << endl;
+        money-=bid;
+        cout<< money << " dollars left"<<endl;
+        if(money<=0)
+            counter=n_games;
         counter++;
+
     }
 else {
    int dummy = total;
@@ -41,10 +55,16 @@ else {
         cout << "player rolled " << firstToss << " + " << secondToss << " = " << total << endl;
         if (total == 7){
             cout<<"player loses!"<<endl;
+            money-=bid;
+            cout<< money << " dollars left"<<endl;
+            if(money<=0)
+                counter = n_games;
             total = 0;
         }
         else if (total == dummy){
             cout<<"player wins!"<<endl;
+            money+=bid;
+            cout<<money<< " dollars left"<<endl;
             total = 0;
         }
 
