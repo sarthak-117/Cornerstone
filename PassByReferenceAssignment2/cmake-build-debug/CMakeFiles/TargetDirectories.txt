@@ -1,0 +1,3 @@
+C:/Users/sarth/CLionProjects/PassByReferenceAssignment2/cmake-build-debug/CMakeFiles/PassByReferenceAssignment2.dir
+C:/Users/sarth/CLionProjects/PassByReferenceAssignment2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sarth/CLionProjects/PassByReferenceAssignment2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

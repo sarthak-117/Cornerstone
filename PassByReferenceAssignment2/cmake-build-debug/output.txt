@@ -1,0 +1,4 @@
+please enter the r1, r2 and height of the cone
+111Calculating values...
+
+your value for the volume is 3.14159 and your value for the surface area is 12.5664
