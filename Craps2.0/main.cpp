@@ -80,8 +80,10 @@ else {
         }
         else if (total == dummy){
             cout<<"player wins!"<<endl;
+            outfile<<"player wins!"<<endl;
             money+=bid;
             cout<<money<< " dollars left"<<endl;
+            outfile<<money<< " dollars left"<<endl;
             total = 0;
         }
 
@@ -107,5 +109,9 @@ void intro(){
           "If you now roll a 7, then you lose! Ready?\n"
           " Enter a random seed value and the number of games you wish to play (minimum of 5)"<< endl;
 
+outfile<<"Welcome to Vegas! The name of the game is craps.\n You win by rolling a 7 or an 11 on the first toss.\n If you roll a 2, 3 or 12, then you lose.\n "
+         "If any other number is rolled, keep rolling until you roll the same number to win.\n "
+         "If you now roll a 7, then you lose! Ready?\n"
+         " Enter a random seed value and the number of games you wish to play (minimum of 5)"<< endl;
 
 }
