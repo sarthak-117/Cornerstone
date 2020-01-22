@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/sarth/CLionProjects/Craps2.0/main.cpp
+C:/Users/sarth/SchoolStuff/CLionProjects/Craps2.0/main.cpp
 iostream
 -
 fstream
 -
 cstdlib
--
-ctime
 -
 

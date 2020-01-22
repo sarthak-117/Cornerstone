@@ -1,0 +1,3 @@
+C:/Users/sarth/SchoolStuff/CLionProjects/Linear2/cmake-build-debug/CMakeFiles/Linear2.dir
+C:/Users/sarth/SchoolStuff/CLionProjects/Linear2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sarth/SchoolStuff/CLionProjects/Linear2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

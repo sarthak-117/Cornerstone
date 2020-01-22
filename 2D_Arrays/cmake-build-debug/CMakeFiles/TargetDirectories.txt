@@ -1,0 +1,3 @@
+C:/Users/sarth/SchoolStuff/CLionProjects/2D_Arrays/cmake-build-debug/CMakeFiles/2D_Arrays.dir
+C:/Users/sarth/SchoolStuff/CLionProjects/2D_Arrays/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sarth/SchoolStuff/CLionProjects/2D_Arrays/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+C:/Users/sarth/SchoolStuff/CLionProjects/Quiz1/cmake-build-debug/CMakeFiles/Quiz1.dir
+C:/Users/sarth/SchoolStuff/CLionProjects/Quiz1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sarth/SchoolStuff/CLionProjects/Quiz1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
